@@ -1,0 +1,27 @@
+body{
+margin: 0;
+    height: 100vh;
+    background-color: teal;
+    overflow: hidden;
+
+}
+
+span{
+    background: url(https://www.iconfinder.com/icons/4096575/heart_like_love_icon);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: animate 6s linear;
+
+
+}
+
+@keyframes animate{
+    
+}
+
